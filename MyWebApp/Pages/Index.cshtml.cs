@@ -15,6 +15,8 @@ namespace MyWebApp.Pages
 
         public void OnGet()
         {
+            string name = "Hoang Le";
+            ViewData["Name"] = name;
         }
     }
 }
